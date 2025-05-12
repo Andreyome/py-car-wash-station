@@ -44,7 +44,6 @@ class CarWashStation:
                                     / self.count_of_ratings, 1)
 
     def serve_cars(self, cars: list) -> int:
-        print(type(cars))
         final_price = 0
         final_price += self.calculate_washing_price(cars)
         for car in cars:
